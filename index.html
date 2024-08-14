@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>lesson4</title>
+</head>
+
+<body>
+    <p>Applies to all p tags, weight 1</p>
+
+    <p class="green-text-background">Applies to any elements with class green-text-background, weight 10</p>
+
+    <p id="yellow-font">Applies to any elements with id yellowe-font, weight 100</p>
+
+    <input type="email" placeholder="Applies to any element with attribute type, weight 10">
+
+    <div class="big-font">
+        <p class="padded-text">Applies to the element with class padded-text inside of the element with class big-font,
+            weight 20</p>
+    </div>
+
+
+    <div class="green-text-background">
+        <p>
+            Applies to all first level child p tags of the element with class .greentextbackground, weight 11
+        </p>
+    </div>
+
+    <p> </p>
+    <a href="">Applies to all a tags that go directly after p tag in code, weight 2</a>
+
+    <div>
+        <div id="bordered">
+            <p>Applies to all p tags that are located inside the elements with id "bordered" inside the div tags, weight
+                102</p>
+        </div>
+    </div>
+
+    <div class="headers">
+        <div class="big-font">
+            <h2>.</h2>
+            <h2>.</h2>
+            <h2>Applies to last h2 tag inside the element with class big-font inside the element with class headers,
+                weight 31</h2>
+        </div>
+    </div>
+
+    <div class="parent">
+        <p></p>
+        <p></p>
+        <p>Applies to the 3rd tag p of the element with class parent, weight 21</p>
+        <p></p>
+    </div>
+</body>
+
+</html>

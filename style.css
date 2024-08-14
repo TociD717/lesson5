@@ -1,0 +1,40 @@
+p {
+    color: red;
+}
+.green-text-background {
+    background-color: green;
+}
+#yellow-font{
+    color: yellow;
+}
+[type] {
+    width: 100vw;
+}
+.padded-text {
+    padding-left: 40px;
+}
+.big-font {
+    font-size: 1.5rem;
+}
+.big-font .padded-text{
+    background-color: black;
+}
+.green-text-background > p {
+    background-color: cornflowerblue;
+}
+p + a {
+    text-decoration: none;
+    color: magenta;
+}
+
+div #bordered p {
+    border: solid gray 5px;
+}
+
+.headers .big-font h2:last-of-type {
+    font-size: 4rem;
+}
+
+.parent p:nth-of-type(3) {
+    color: hotpink;
+}
